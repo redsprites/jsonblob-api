@@ -1,5 +1,9 @@
 const http=require('http');
 const server=http.createServer().listen(8080);
+const GET =require('./lib/get.js');
+const POST=require('./lib/post.js');
+const PUT=require('./lib/put.js');
+const DELETE=require('./lib/delete.js');
 const process=require('./lib/process.js');
 
 server.on('request',async(req,res)=>{
@@ -20,25 +24,7 @@ server.on('request',async(req,res)=>{
 		default:
 		  res.statusCode = 405;
 		  res.end("Method Not Allowed");
-	  }
-	  
-	  function POST(req, res) {
-		// code for handling POST requests
-	  }
-	  
-	  function PUT(req, res) {
-		// code for handling PUT requests
-	  }
-	  
-	  function GET(req, res) {
-		// code for handling GET requests
-	  }
-	  
-	  function DELETE(req, res) {
-		// code for handling DELETE requests
-	  }
-	  	  
-	  
+	  }	  	  	  
 });
 
 
