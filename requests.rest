@@ -18,4 +18,4 @@ content-type: application/json
 }
 
 ### DELETE REQUEST
-DELETE http://localhost:8080
+DELETE http://localhost:8080/lfu4pxnj0.d2krhh99tj6
