@@ -6,11 +6,14 @@ GET http://localhost:8080
 POST http://localhost:8080
 content-type: application/json
 
-{"test":"xxxxxxxxxxxxxxxxxxxxxxxxx"}
+{
+  "test": "xxxxxxxxxxxxxxxxxxxxxxxxx",
+  "test_1": "test"
+}
 
 
 ### PUT REQUEST
-PUT http://localhost:8080
+PUT http://localhost:8080/dkjfjslkdf
 content-type: application/json
 
 {
@@ -18,4 +21,4 @@ content-type: application/json
 }
 
 ### DELETE REQUEST
-DELETE http://localhost:8080
+DELETE http://localhost:8080/sdfdsfs?name=yoseph
