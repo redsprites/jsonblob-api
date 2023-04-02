@@ -1,5 +1,5 @@
 ### GET REQUEST
-GET http://localhost:8080/lfrnffif0.9hhb7qeyhxo
+GET http://localhost:8080/lfu4vuri0.73zex587yxy
 
 
 ### POST REQUEST
@@ -13,11 +13,12 @@ content-type: application/json
 
 
 ### PUT REQUEST
-PUT http://localhost:8080/lfu3keul0.ntfkxzq1ql
+PUT http://localhost:8080/lfu4vuri0.73zex587yxy
 content-type: application/json
 
 {
-	"hello":"world"
+	"hello":"world",
+  "Hi":" You"
 }
 
 ### DELETE REQUEST
