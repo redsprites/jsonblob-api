@@ -4,7 +4,6 @@ const GET =require('./lib/get.js');
 const POST=require('./lib/post.js');
 const PUT=require('./lib/put.js');
 const DELETE=require('./lib/delete.js');
-const process=require('./lib/process.js');
 
 server.on('request',async(req,res)=>{
 	console.log(req.method)
